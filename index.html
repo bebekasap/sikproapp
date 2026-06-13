@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SIKPRO - Statistical Process Control</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+    background:#49525b;
+    color:white;
+    font-family:'Montserrat',sans-serif;
+}
+
+.navbar{
+    background:#404952;
+}
+
+.navbar-brand{
+    font-size:2rem;
+    font-weight:600;
+}
+
+.hero{
+    padding:100px 0;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:4rem;
+    font-weight:700;
+}
+
+.hero p{
+    max-width:700px;
+    margin:auto;
+    color:#d8d8d8;
+    font-size:1.2rem;
+}
+
+.download-btn{
+    margin-top:30px;
+    padding:15px 40px;
+    font-size:1.1rem;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+    font-weight:600;
+}
+
+.feature-card{
+    background:#404952;
+    border:none;
+    color:white;
+    height:100%;
+    transition:.3s;
+}
+
+.feature-card:hover{
+    transform:translateY(-5px);
+}
+
+.feature-card .card-body{
+    padding:30px;
+}
+
+.about{
+    margin-top:100px;
+}
+
+.about p{
+    color:#d8d8d8;
+    line-height:1.8;
+}
+
+.footer{
+    margin-top:100px;
+    background:#404952;
+    text-align:center;
+    padding:30px;
+}
+
+.footer p{
+    margin:0;
+    color:#d8d8d8;
+}
+
+.dropdown-menu{
+    background:#404952;
+}
+
+.dropdown-item{
+    color:white;
+}
+
+.dropdown-item:hover{
+    background:#56616b;
+    color:white;
+}
+
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+
+        <a class="navbar-brand" href="#">
+            SIKPRO
+        </a>
+
+        <div class="dropdown">
+
+            <button class="btn text-white fs-3"
+                    data-bs-toggle="dropdown">
+                ☰
+            </button>
+
+            <ul class="dropdown-menu dropdown-menu-end">
+
+                <li>
+                    <a class="dropdown-item" href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item" href="download.html">
+                        Download
+                    </a>
+                </li>
+
+                <li>
+                    <a class="dropdown-item" href="aboutme.html">
+                        About
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+</nav>
+
+<section class="hero">
+
+    <div class="container">
+
+        <h1>SIKPRO</h1>
+
+        <p class="mt-4">
+            Statistical Process Control desktop application for quality control analysis,
+            control chart visualization, automatic calculations, and Nelson Rules interpretation.
+        </p>
+
+        <a href="download.html"
+           class="btn btn-light download-btn">
+            Download Application
+        </a>
+
+    </div>
+
+</section>
+
+<div class="container">
+
+    <h2 class="section-title">
+        Main Features
+    </h2>
+
+    <div class="row g-4">
+
+        <div class="col-md-4">
+
+            <div class="card feature-card">
+
+                <div class="card-body text-center">
+
+                    <h4>Attribute Data</h4>
+
+                    <p>
+                        P Chart, NP Chart, C Chart, and U Chart for attribute data analysis.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="card feature-card">
+
+                <div class="card-body text-center">
+
+                    <h4>Variable Data</h4>
+
+                    <p>
+                        I-MR Chart, X̄-R Chart, and X̄-S Chart for variable data analysis.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="card feature-card">
+
+                <div class="card-body text-center">
+
+                    <h4>Nelson Rules</h4>
+
+                    <p>
+                        Detect abnormal process patterns and provide interpretation automatically.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="card feature-card">
+
+                <div class="card-body text-center">
+
+                    <h4>Seven Tools</h4>
+
+                    <p>
+                        Histogram, Pareto Diagram, Fishbone Diagram, Scatter Plot, and more.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="card feature-card">
+
+                <div class="card-body text-center">
+
+                    <h4>Automatic Analysis</h4>
+
+                    <p>
+                        Calculate UCL, CL, and LCL instantly without manual computation.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="card feature-card">
+
+                <div class="card-body text-center">
+
+                    <h4>Data Visualization</h4>
+
+                    <p>
+                        Interactive charts and graphical analysis for easier interpretation.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<section class="about">
+
+    <div class="container">
+
+        <h2 class="section-title">
+            About SIKPRO
+        </h2>
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-8 text-center">
+
+                <p>
+                    SIKPRO is a desktop-based Statistical Process Control (SPC)
+                    application developed to assist users in performing quality
+                    control analysis through control charts, automatic calculations,
+                    graphical visualization, and Nelson Rules interpretation.
+                </p>
+
+                <p>
+                    The application supports I-MR Chart, X̄-R Chart,
+                    X̄-S Chart, and several additional quality tools to
+                    support learning and implementation of SPC.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer class="footer">
+
+    <h5>SIKPRO</h5>
+
+    <p>
+        Developed by Muhammad Aidil Dzulfikar Saviola © 2026
+    </p>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
